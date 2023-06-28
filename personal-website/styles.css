@@ -6,6 +6,7 @@ body {
   padding: 20px;
 }
 
+/* header and nav */
 header {
   background-color: #555;
   padding: 20px;
@@ -38,4 +39,29 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* sections */
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+section ul {
+    margin-left: 20px;
+    list-style-type: disc;
+
 }
